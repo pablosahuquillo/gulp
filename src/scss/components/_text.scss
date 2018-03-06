@@ -1,0 +1,31 @@
+.nombre{
+    padding: 45px;
+    font-size: $font-size-large + 5;
+    font-weight: bold;
+    text-transform:uppercase;
+    background:linear-gradient(left,lightgrey, $color-triki);
+
+}
+
+.texto {
+    margin: 45px;
+    font-weight: lighter;
+    text-transform:uppercase;
+    background: $color-fly;
+}
+.precio {
+    text-align: center;
+    font-weight: lighter;
+    text-transform:uppercase;
+    margin: 45px 45px 45px 45px;
+    color:$color-cloje;
+    font-size: $font-size-large;
+
+}
+.valor{
+    text-align: center;
+    font-size: $font-size-large + 10;
+    font-weight: bold;
+    color: $color-fururu;
+    text-transform:uppercase;
+}

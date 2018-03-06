@@ -1,0 +1,41 @@
+// Font families
+$main-font-family: 'Shrikhand', cursive;
+$title-font-family: 'Roboto', sans-serif;;
+$body-font-family: $main-font-family;
+// Font sizes
+$font-size-base:15px;
+$font-size-small: $font-size-base - 5px;
+$font-size-large: $font-size-base + 10px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+
+// Base colors
+$color-amazing:#E87162;
+$color-fly:#B4B2AE;
+$color-cloje:#5F5E5D;
+$color-fururu:#E24A37;
+$color-triki:#F2EEEA;
+
+// Main components colors
+$main-text-color: $color-amazing;
+$links-color: $color-cloje;
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+$form-input-border-color: $color-amazing;
+$form-input-outline-color: $color-amazing;
+$form-button-background-color: $color-amazing;
+$form-button-font-color: $color-fururu;
+$form-error-background-color: $color-amazing;
+$form-error-font-color: $color-fururu;
